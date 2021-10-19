@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29743" started-at="2021-10-19T15:27:30Z" finished-at="2021-10-19T15:28:00Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TC01_InsLogin.loginForSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="loginForSuccess" class="testcases.TC01_InsLogin"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="29743" started-at="2021-10-19T15:27:30Z" finished-at="2021-10-19T15:28:00Z">
+      <class name="testcases.TC01_InsLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="beforeSuite" is-config="true" duration-ms="613" started-at="2021-10-19T20:57:30Z" finished-at="2021-10-19T20:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-10-19T20:57:30Z" finished-at="2021-10-19T20:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="startTestCase" is-config="true" duration-ms="1" started-at="2021-10-19T20:57:30Z" finished-at="2021-10-19T20:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="beforeMethod" is-config="true" duration-ms="6491" started-at="2021-10-19T20:57:31Z" finished-at="2021-10-19T20:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginForSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="loginForSuccess" duration-ms="22166" started-at="2021-10-19T20:57:38Z" data-provider="fetchData" finished-at="2021-10-19T20:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.smith@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Auto Quote]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[78420]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[john.smith@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[truck]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Good]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Chrysler]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Crossfire]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Finance]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Your Instant Quote is USD 1.300,00 every twelve months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForSuccess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="afterMethod" is-config="true" duration-ms="132" started-at="2021-10-19T20:58:00Z" finished-at="2021-10-19T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-10-19T20:58:00Z" finished-at="2021-10-19T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC01_InsLogin@8dacdf]" name="afterSuite" is-config="true" duration-ms="712" started-at="2021-10-19T20:58:00Z" finished-at="2021-10-19T20:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC01_InsLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
